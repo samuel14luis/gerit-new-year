@@ -13,10 +13,37 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/env.css">
+    <link rel="stylesheet" href="./css/contador.css">
+    <script src="./js/counter.js"></script>
 </head>
 
-<body>
+<body onload="setTimeout('abrir()', calcular())">
     <main class="site-main">
+        
+        <div class="wrap">
+            <div class="widget">
+                <div class="fecha">
+                    <p id="diaSemana" class="diaSemana"></p>
+                    <p id="dia" class="dia"></p>
+                    <p id="mes" class="mes"></p>
+                    <p id="year" class="year"></p>
+                </div>
+                <div class="reloj">
+                    <p id="horas" class="horas"></p>
+                    <p>:</p>
+                    <p id="minutos" class="minutos"></p>
+                    <p>:</p>
+
+                    <div class="caja-segundos">
+                        <p id="ampm" class="ampm"></p>
+                        <p id="segundos" class="segundos"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        
 
 
         <footer class="footer-area gt-in-bottom">
@@ -38,8 +65,12 @@
                 </div>
             </div>
         </footer>
+        
+    
     </main>
-    <canvas id="confetti"></canvas>
+
+    <canvas  id="confetti"></canvas>
+
 
 
 
@@ -63,6 +94,7 @@
 
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
+    <script src="./js/contador.js"></script>
 
 
 </body>
