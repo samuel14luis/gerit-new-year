@@ -327,6 +327,7 @@
 
 footer.footer-area{
     padding: 5rem 0;
+    width: 100%;
     background: url(../img/footer-bg.png) no-repeat;
 }
 
@@ -341,7 +342,7 @@ footer.footer-area .social a > i{
 }
 
 footer.footer-area .social a:hover > i{
-    color: var(--primary-color);
+    color: var(--primary-color-gerit-blue);
 }
 
 
