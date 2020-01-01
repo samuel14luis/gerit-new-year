@@ -6,9 +6,9 @@ function calcular() {
     console.log("contando...")
     ahora = new Date();
     luego = new Date();
-    luego.setHours(22);
-    luego.setMinutes(32);
-    luego.setSeconds(30);
+    luego.setHours(23);
+    luego.setMinutes(59);
+    luego.setSeconds(59);
     console.log(luego.getTime() - ahora.getTime())
     return (_new_year ? 100 : luego.getTime() - ahora.getTime());
 }
